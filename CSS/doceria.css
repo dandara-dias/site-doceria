@@ -1,7 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 
-h1 {
-  color: red;
+a {
+  transition: .5s;
+}
+
+html {
+  color: #373A3C;
+}
+
+#logo-doceria {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  background-color: #006599;
+  padding-top: 4%;
+}
+
+#sidebar a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.7vw;
+}
+
+#sidebar a:hover {
+  color: #F4EF5E;
+}
+
+#sidebar h1 {
+  color: #FFF;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+#sidebar li {
+  padding: 3%;
+}
+
+#sidebar-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 @media (max-width: 320px) {
