@@ -1,27 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 
 h1 {
   color: red;
 }
 
-html {
-  font-family: 'Open sans';
-}
-
 @media (max-width: 320px) {
+  #doceria-sidebar{
+    font-family: 'Emilys Candy';
+    font-size: 9vw;
+    color: aqua;
+  }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
+  #doceria-sidebar {
+    font-family: 'Emilys Candy';
+    font-size: 8.5vw;
+  }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
+  #doceria-sidebar {
+    font-family: 'Emilys Candy';
+    font-size: 8vw;
+  }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  #doceria-sidebar {
+    font-family: 'Emilys Candy';
+    font-size: 5vw;
+  }
 }
 
-@media (max-width: 1024px) {
-}
-
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
+  #doceria-sidebar {
+    font-family: 'Emilys Candy';
+    font-size: 3.5vw;
+  }
 }
