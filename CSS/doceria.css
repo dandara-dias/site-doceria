@@ -20,22 +20,30 @@ html {
   position: fixed;
   height: 100%;
   width: 20%;
-  background-color: #006599;
+  background-color: rgba(49, 61, 90, 0.9);
   padding-top: 4%;
 }
 
 #sidebar a {
-  color: #FFF;
+  color: #fffffa;
   text-decoration: none;
   font-size: 1.7vw;
 }
 
 #sidebar a:hover {
-  color: #F4EF5E;
+  background-color: (#313d5a, 0.5);
+  background-image: linear-gradient(45deg, #ff784f, #f7aef8);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 #sidebar h1 {
-  color: #FFF;
+  color: #fffffa;
   text-align: center;
   margin-top: 10%;
   margin-bottom: 15%;
