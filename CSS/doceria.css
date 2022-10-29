@@ -42,6 +42,34 @@ p {
   margin-right: 5%;
 }
 
+.banner-gallery {
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 20%;
+}
+
+.doces1-imgs {
+  width: 18.8%;
+  margin-left: .5%;
+  margin-right: .5%;
+  height: 200px;
+}
+
+.doces2-imgs {
+  width: 32.3%;
+  margin-left: .5%;
+  margin-right: .5%;
+  height: 200px;
+}
+
+.doces3-imgs {
+  width: 23.9%;
+  margin-left: .5%;
+  margin-right: .5%;
+  height: 200px;
+}
+
 .minibanner {
   width: 300px;
   height: 400px;
@@ -49,6 +77,18 @@ p {
   background-position: center;
   background-size: cover;
   float: left;
+}
+
+#about-us-section .minibanner {
+  float: right;
+  margin-right: 50px;
+  background-image: url('../Images/banner4.jpg');
+}
+
+#about-us-section .about-section {
+  position: absolute;
+  left: 25px;
+  width: calc(100% - 400px);
 }
 
 #banner {
@@ -79,6 +119,65 @@ p {
 
 #content h4 {
   font-size: 2vw;
+}
+
+#doces1-section, #doces2-section, #doces3-section {
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+#img1 {
+  background-image: url('../Images/galeria1.jpg');
+  margin-left: 0;
+}
+
+#img2 {
+  background-image: url('../Images/galeria2.jpg');
+}
+
+#img3 {
+  background-image: url('../Images/galeria3.jpg');
+}
+
+#img4 {
+  background-image: url('../Images/galeria4.jpg');
+}
+
+#img5 {
+  background-image: url('../Images/galeria5.jpg');
+  margin-right: 0;
+}
+
+#img6 {
+  background-image: url('../Images/galeria6.jpg');
+  margin-left: 0;
+}
+
+#img7 {
+  background-image: url('../Images/galeria7.jpg');
+}
+
+#img8 {
+  background-image: url('../Images/galeria8.jpg');
+  margin-right: 0;
+}
+
+#img9 {
+  background-image: url('../Images/galeria9.jpg');
+  margin-left: 0;
+}
+
+#img10 {
+  background-image: url('../Images/galeria10.jpg');
+}
+
+#img11 {
+  background-image: url('../Images/galeria11.jpg');
+}
+
+#img12 {
+  background-image: url('../Images/galeria12.jpg');
+  margin-right: 0;
 }
 
 #logo-doceria {
