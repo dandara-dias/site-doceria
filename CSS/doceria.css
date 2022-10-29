@@ -6,7 +6,58 @@ a {
 }
 
 html {
-  color: #373A3C;
+  color: #808782;
+}
+
+.about-section {
+  position: relative;
+  left: 1%;
+}
+
+.about-section p {
+  line-height: 2;
+  font-size: 1.3vw;
+  margin-bottom: 1%;
+  margin-right: 5%;
+}
+
+.minibanner {
+  width: 300px;
+  height: 400px;
+  background-image: url('../Images/banner3.jpg');
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+#banner {
+  height: 20em;
+  width: 102.5%;
+  margin-left: -2.5%;
+  object-fit: cover;
+  filter: drop-shadow(8px 8px 10px #F7AEF8);
+}
+
+#content {
+  position: absolute;
+  left: 22%;
+}
+
+#content h2, #content h3, #content h4 {
+  color: #FF784F;
+  margin-bottom: 3%;
+}
+
+#content h2 {
+  font-size: 3vw;
+}
+
+#content h3 {
+  font-size: 2.5vw;
+}
+
+#content h4 {
+  font-size: 2vw;
 }
 
 #logo-doceria {
@@ -60,6 +111,39 @@ html {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+#welcome-content-section {
+  padding-left: 5%;
+}
+
+#welcome-section h2 {
+  margin-top: 5%;
+}
+
+#welcome-section::after, #about-us-section::after {
+  content: "";
+  display: block;
+  clear: both;
+  margin-bottom: 5%;
+}
+
+#welcome-section-btn, form input[type=submit] {
+  background-color: #F7AEF8;
+  color: #FFFFFA;
+  text-decoration: none;
+  padding: 2% 4%;
+  transition: 1s;
+  display: block;
+  width: 10%;
+  text-align: center;
+  border: double #808782;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+#welcome-section-btn:hover, form input[type=submit]:hover {
+  background-color: #808782;
 }
 
 @media (max-width: 320px) {
