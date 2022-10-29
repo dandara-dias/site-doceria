@@ -169,6 +169,44 @@ p {
 }
 
 @media (max-width: 320px) {
+  h2, h4 {
+    font-family: 'Maven Pro';
+    margin-left: -50px;
+  }
+  
+  h3 {
+    font-family: 'Inconsolata';
+    margin-left: -50px;
+  }
+
+  .about-section p {
+    line-height: 2;
+    font-size: 2vw;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    margin-left: -50px;
+  }
+
+  .minibanner {
+    width: 340px;
+    height: 100px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin-left: -50px;
+  }
+
+  #banner {
+    height: 7em;
+    width: 370px;
+    margin-left: -65px;
+    margin-top: 27%;
+    object-fit: cover;
+    filter: drop-shadow(8px 8px 10px #F7AEF8);
+    right: 500px;
+  }
+
   #doceria-sidebar{
     font-family: 'Emilys Candy';
     font-size: 6vw;
@@ -184,8 +222,8 @@ p {
   }
   
   #sidebar {
-    position: fixed;
-    height: 15%;
+    z-index: 1;
+    height: 10%;
     width: 100%;
     background-color: rgba(49, 61, 90, 0.9);
     padding-top: 4%;
@@ -214,30 +252,148 @@ p {
   }
 
   #sidebar-container {
-    display: block;
+    display: relative;
     align-items: center;
+  }
+
+  #welcome-section-btn, form input[type=submit] {
+    background-color: #F7AEF8;
+    color: #FFFFFA;
+    text-decoration: none;
+    padding: 2% 4%;
+    transition: 1s;
+    display: block;
+    width: 23%;
+    font-size: 4vw;
+    text-align: center;
+    border: double #808782;
+    cursor: pointer;
+    margin-left: 20%;
+    font-family: 'Raleway';
   }
 
 }
 
 @media (min-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #banner {
+    height: 10em;
+    width: 102.5%;
+    margin-left: -2.5%;
+    object-fit: cover;
+    filter: drop-shadow(8px 8px 10px #F7AEF8);
+  }
+
   #doceria-sidebar {
     font-family: 'Emilys Candy';
     font-size: 4.5vw;
+  }
+
+  #welcome-section-btn, form input[type=submit] {
+    background-color: #F7AEF8;
+    color: #FFFFFA;
+    text-decoration: none;
+    padding: 2% 4%;
+    transition: 1s;
+    display: block;
+    width: 25%;
+    text-align: center;
+    border: double #808782;
+    cursor: pointer;
+    margin-left: 30%;
+    font-family: 'Raleway';
+    font-size: 2vw;
+  }
+
+  .minibanner {
+    width: 300px;
+    height: 100px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: inline-block;
   }
 }
 
 @media (min-width: 425px) {
+  #banner {
+    height: 10em;
+    width: 102.5%;
+    margin-left: -2.5%;
+    object-fit: cover;
+    filter: drop-shadow(8px 8px 10px #F7AEF8);
+  }
+
   #doceria-sidebar {
     font-family: 'Emilys Candy';
     font-size: 4.5vw;
   }
+
+  #welcome-section-btn, form input[type=submit] {
+    background-color: #F7AEF8;
+    color: #FFFFFA;
+    text-decoration: none;
+    padding: 2% 4%;
+    transition: 1s;
+    display: block;
+    width: 25%;
+    text-align: center;
+    border: double #808782;
+    cursor: pointer;
+    margin-left: 30%;
+    font-family: 'Raleway';
+    font-size: 2vw;
+  }
+
+  .minibanner {
+    width: 310px;
+    height: 100px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: inline-block;
+  }
 }
 
 @media (min-width: 768px) {
+  #banner {
+    height: 15em;
+    width: 102.5%;
+    margin-left: -2.5%;
+    object-fit: cover;
+    filter: drop-shadow(8px 8px 10px #F7AEF8);
+  }
+
   #doceria-sidebar {
     font-family: 'Emilys Candy';
     font-size: 5vw;
+  }
+
+  #welcome-section-btn, form input[type=submit] {
+    background-color: #F7AEF8;
+    color: #FFFFFA;
+    text-decoration: none;
+    padding: 2% 4%;
+    transition: 1s;
+    display: block;
+    width: 15%;
+    text-align: center;
+    border: double #808782;
+    cursor: pointer;
+    margin-left: 50%;
+    font-family: 'Raleway';
+  }
+
+  .minibanner {
+    width: 200px;
+    height: 300px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
   }
 }
 
@@ -245,5 +401,29 @@ p {
   #doceria-sidebar {
     font-family: 'Emilys Candy';
     font-size: 3.5vw;
+  }
+
+  #welcome-section-btn, form input[type=submit] {
+    background-color: #F7AEF8;
+    color: #FFFFFA;
+    text-decoration: none;
+    padding: 2% 4%;
+    transition: 1s;
+    display: block;
+    width: 20%;
+    text-align: center;
+    border: double #808782;
+    cursor: pointer;
+    margin-left: 40%;
+    font-family: 'Raleway';
+  }
+
+  .minibanner {
+    width: 300px;
+    height: 400px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
   }
 }
