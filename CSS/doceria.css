@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 a {
   transition: .5s;
 }
 
+footer {
+  font-family: 'Pacifico';
+}
+
+h2, h4 {
+  font-family: 'Maven Pro';
+}
+
+h3 {
+  font-family: 'Inconsolata';
+}
+
 html {
   color: #808782;
+  background-image: linear-gradient(to bottom right, #FFFFFF, #FFFFFA);
+}
+
+p {
+  font-family: 'Raleway';
 }
 
 .about-section {
@@ -140,6 +161,7 @@ html {
   border: double #808782;
   cursor: pointer;
   margin-left: 30%;
+  font-family: 'Raleway';
 }
 
 #welcome-section-btn:hover, form input[type=submit]:hover {
