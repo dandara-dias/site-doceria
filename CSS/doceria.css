@@ -292,20 +292,55 @@ p {
     margin-left: -50px;
   }
 
+  .doces1-imgs {
+    width: 18%;
+    height: 90px;
+    border-radius: 0;
+  }
+  
+  .doces2-imgs {
+    width: 30%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 90px;
+    border-radius: 0;
+  }
+  
+  .doces3-imgs {
+    width: 23%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 90px;
+    border-radius: 0;
+  }
+
   .minibanner {
-    width: 340px;
-    height: 100px;
+    width: 100px;
+    height: 140px;
     background-image: url('../Images/banner3.jpg');
     background-position: center;
     background-size: cover;
     float: left;
     margin-left: -50px;
+    border-radius: 0;
+  }
+
+  #about-us-section .about-section {
+    position: absolute;
+    left: 1px;
+    width: 150px;
+  }
+
+  #about-us-section .minibanner {
+    float: right;
+    background-image: url('../Images/banner4.jpg');
+    border-radius: 0;
   }
 
   #banner {
     height: 7em;
-    width: 370px;
-    margin-left: -65px;
+    width: 410px;
+    margin-left: -70px;
     margin-top: 27%;
     object-fit: cover;
     filter: drop-shadow(8px 8px 10px #F7AEF8);
@@ -315,6 +350,21 @@ p {
   #doceria-sidebar{
     font-family: 'Emilys Candy';
     font-size: 6vw;
+  }
+
+  #img1 {
+    background-image: url('../Images/galeria1.jpg');
+    margin-left: -50px;
+  }
+
+  #img6 {
+    background-image: url('../Images/galeria6.jpg');
+    margin-left: -50px;
+  }
+
+  #img9 {
+    background-image: url('../Images/galeria9.jpg');
+    margin-left: -50px;
   }
 
   #logo-doceria {
@@ -380,14 +430,43 @@ p {
 }
 
 @media (min-width: 375px) {
-  body {
-    overflow-x: hidden;
+  .doces1-imgs {
+    width: 18%;
+    margin-left: .5%;
+    height: 90px;
+    border-radius: 0;
+  }
+  
+  .doces2-imgs {
+    width: 30%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 90px;
+    border-radius: 0;
+  }
+  
+  .doces3-imgs {
+    width: 23%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 90px;
+    border-radius: 0;
+  }
+
+  #about-us-section .about-section {
+    position: relative;
+    left: 1px;
+  }
+
+  #about-us-section .minibanner {
+    float: right;
+    background-image: url('../Images/banner4.jpg');
+    border-radius: 0;
   }
 
   #banner {
     height: 10em;
     width: 102.5%;
-    margin-left: -2.5%;
     object-fit: cover;
     filter: drop-shadow(8px 8px 10px #F7AEF8);
   }
@@ -408,26 +487,76 @@ p {
     text-align: center;
     border: double #808782;
     cursor: pointer;
-    margin-left: 30%;
+    margin-left: 40%;
     font-family: 'Raleway';
     font-size: 2vw;
   }
 
   .minibanner {
-    width: 300px;
-    height: 100px;
+    width: 100px;
+    height: 150px;
     background-image: url('../Images/banner3.jpg');
     background-position: center;
     background-size: cover;
-    float: inline-block;
+    float: left;
+    border-radius: 0;
+    margin-left: 2.9%;
+  }
+
+  h2, p {
+    margin-left: 5%;
   }
 }
 
 @media (min-width: 425px) {
+  .doces1-imgs {
+    width: 18%;
+    margin-left: .5%;
+    height: 100px;
+    border-radius: 0;
+  }
+  
+  .doces2-imgs {
+    width: 30%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 100px;
+    border-radius: 0;
+  }
+  
+  .doces3-imgs {
+    width: 23%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 100px;
+    border-radius: 0;
+  }
+
+  .minibanner {
+    width: 100px;
+    height: 150px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    border-radius: 0;
+    margin-left: 2.9%;
+  }
+
+  #about-us-section .about-section {
+    position: relative;
+    left: 1px;
+  }
+
+  #about-us-section .minibanner {
+    float: right;
+    background-image: url('../Images/banner4.jpg');
+    border-radius: 0;
+  }
+
   #banner {
     height: 10em;
     width: 102.5%;
-    margin-left: -2.5%;
     object-fit: cover;
     filter: drop-shadow(8px 8px 10px #F7AEF8);
   }
@@ -435,6 +564,27 @@ p {
   #doceria-sidebar {
     font-family: 'Emilys Candy';
     font-size: 4.5vw;
+  }
+
+  #img1 {
+    background-image: url('../Images/galeria1.jpg');
+  }
+  
+  #img2 {
+    background-image: url('../Images/galeria2.jpg');
+  }
+  
+  #img3 {
+    background-image: url('../Images/galeria3.jpg');
+  }
+  
+  #img4 {
+    background-image: url('../Images/galeria4.jpg');
+  }
+  
+  #img5 {
+    background-image: url('../Images/galeria5.jpg');
+    margin-right: 0;
   }
 
   #welcome-section-btn, form input[type=submit] {
@@ -448,22 +598,59 @@ p {
     text-align: center;
     border: double #808782;
     cursor: pointer;
-    margin-left: 30%;
+    margin-left: 40%;
     font-family: 'Raleway';
     font-size: 2vw;
   }
 
-  .minibanner {
-    width: 310px;
-    height: 100px;
-    background-image: url('../Images/banner3.jpg');
-    background-position: center;
-    background-size: cover;
-    float: inline-block;
+  h2, p {
+    margin-left: 5%;
   }
+
 }
 
 @media (min-width: 768px) {
+  .doces1-imgs {
+    width: 18%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 150px;
+    border-radius: 0;
+  }
+  
+  .doces2-imgs {
+    width: 32%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 150px;
+    border-radius: 0;
+  }
+  
+  .doces3-imgs {
+    width: 23%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 150px;
+    border-radius: 0;
+  }
+
+  .minibanner {
+    width: 200px;
+    height: 300px;
+    background-image: url('../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+    border-radius: 15px 50px 30px 5px;
+  }
+
+  #about-us-section .minibanner {
+    float: right;
+    margin-right: 50px;
+    background-image: url('../Images/banner4.jpg');
+    border-radius: 30px 50px 15px;
+  }
+
   #banner {
     height: 15em;
     width: 102.5%;
@@ -491,15 +678,6 @@ p {
     margin-left: 50%;
     font-family: 'Raleway';
   }
-
-  .minibanner {
-    width: 200px;
-    height: 300px;
-    background-image: url('../Images/banner3.jpg');
-    background-position: center;
-    background-size: cover;
-    float: left;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -523,6 +701,30 @@ p {
     font-family: 'Raleway';
   }
 
+  .doces1-imgs {
+    width: 18.8%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .doces2-imgs {
+    width: 32.3%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .doces3-imgs {
+    width: 23.9%;
+    margin-left: .5%;
+    margin-right: .5%;
+    height: 200px;
+    border-radius: 50%;
+  }
+
   .minibanner {
     width: 300px;
     height: 400px;
@@ -530,5 +732,6 @@ p {
     background-position: center;
     background-size: cover;
     float: left;
+    border-radius: 15px 50px 30px 5px;
   }
 }
