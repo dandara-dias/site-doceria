@@ -56,3 +56,18 @@ $ cd site-doceria
 # Com a extensão Live Server, clique em Go Live
 # A aplicação iniciará na porta 5500 - acesse http://localhost:5500 
 ```
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website** ([HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) + [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS))
+
+-   **[Reset CSS](https://meyerweb.com/eric/tools/css/reset/)**
+
+#### **Utilitários**
+
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**
+-   Markdown:  **[Rocketseat](https://blog.rocketseat.com.br/como-fazer-um-bom-readme/)**
+-   Favicon:  **[Icons8](https://icons8.com.br/icon/HyWIvtSTIldl/cherry-cheesecake)**
+-   Paleta de cores: **[Coolors](https://coolors.co/fffffa-f7aef8-ff784f-808782-313d5a)**
+-   Fontes:  **[Emily's Candy](https://fonts.google.com/specimen/Emilys+Candy?query=emilys+candy)**,  **[Baloo 2](https://fonts.google.com/specimen/Baloo+2?query=Baloo+2)**, **[Maven Pro](https://fonts.google.com/specimen/Maven+Pro?query=Maven+Pro)**, **[Inconsolata](https://fonts.google.com/specimen/Inconsolata?query=inconsolata)**, **[Raleway](https://fonts.google.com/specimen/Raleway?query=raleway)**, **[Pacifico](https://fonts.google.com/specimen/Pacifico?query=pacifico)**
