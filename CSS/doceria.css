@@ -310,6 +310,10 @@ p {
 }
 
 @media (max-width: 320px) {
+  form {
+    margin-left: -50px;
+  }
+
   h2, h4 {
     font-family: 'Maven Pro';
     margin-left: -50px;
