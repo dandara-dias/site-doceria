@@ -28,3 +28,9 @@ A Doceria SPA é um site informativo sobre uma doceria fictícia. Em uma página
 
 - [x] Ao utilizar o formulário (apenas para exibição):
     - [x] é possível inserir nome, email e mensagem 
+
+## 🎨 Demonstração
+
+<p align="center">
+  <img alt="Doceria-app" title="#Doceria" src="doceria.gif" width="800px">
+</p>
