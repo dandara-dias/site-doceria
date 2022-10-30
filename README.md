@@ -34,3 +34,25 @@ A Doceria SPA é um site informativo sobre uma doceria fictícia. Em uma página
 <p align="center">
   <img alt="Doceria-app" title="#Doceria" src="doceria.gif" width="800px">
 </p>
+
+## 🚀 Como executar o projeto
+
+Este projeto possui apenas uma parte (Frontend), com as pastas:
+1. CSS 
+2. HTML
+3. Images
+
+### Pré-requisitos
+
+É bom ter um editor para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/).
+
+#### 🎲 Rodando a aplicação
+
+``` bash
+# Clone o repositório
+$ git clone git@github.com:dandara-dias/site-doceria.git
+# Entre na pasta do repositório que você acabou de clonar
+$ cd site-doceria
+# Com a extensão Live Server, clique em Go Live
+# A aplicação iniciará na porta 5500 - acesse http://localhost:5500 
+```
