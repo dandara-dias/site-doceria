@@ -39,7 +39,7 @@ A Doceria SPA é um site informativo sobre uma doceria fictícia. Em uma página
 
 Este projeto possui apenas uma parte (Frontend), com as pastas:
 1. CSS 
-2. HTML
+2. Arquivo index.html
 3. Images
 
 ### Pré-requisitos
