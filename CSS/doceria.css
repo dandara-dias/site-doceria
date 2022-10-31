@@ -5,6 +5,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+::selection {
+  color: #808782;
+  background: #F7AEF8;
+}
+
 a {
   transition: .5s;
 }
@@ -28,6 +57,7 @@ h3 {
 html {
   color: #808782;
   background-image: linear-gradient(to bottom right, #FFFFFF, #FFFFFA);
+  scroll-behavior: smooth;
 }
 
 p {
@@ -289,6 +319,10 @@ p {
   margin-bottom: 5%;
 }
 
+#welcome-section-btn:hover {
+  animation: wiggle 2s linear;
+}
+
 #welcome-section-btn, form input[type=submit] {
   background-color: #F7AEF8;
   color: #FFFFFA;
@@ -307,6 +341,7 @@ p {
 
 #welcome-section-btn:hover, form input[type=submit]:hover {
   background-color: #808782;
+  animation: wiggle 2s linear;
 }
 
 @media (max-width: 320px) {
@@ -395,6 +430,7 @@ p {
   #img1 {
     background-image: url('../Images/galeria1.jpg');
     margin-left: -50px;
+    opacity: 1;
   }
 
   #img6 {
