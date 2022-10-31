@@ -71,3 +71,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   Favicon:  **[Icons8](https://icons8.com.br/icon/HyWIvtSTIldl/cherry-cheesecake)**
 -   Paleta de cores: **[Coolors](https://coolors.co/fffffa-f7aef8-ff784f-808782-313d5a)**
 -   Fontes:  **[Emily's Candy](https://fonts.google.com/specimen/Emilys+Candy?query=emilys+candy)**,  **[Baloo 2](https://fonts.google.com/specimen/Baloo+2?query=Baloo+2)**, **[Maven Pro](https://fonts.google.com/specimen/Maven+Pro?query=Maven+Pro)**, **[Inconsolata](https://fonts.google.com/specimen/Inconsolata?query=inconsolata)**, **[Raleway](https://fonts.google.com/specimen/Raleway?query=raleway)**, **[Pacifico](https://fonts.google.com/specimen/Pacifico?query=pacifico)**
+
+## 🦸‍♀️ Autora
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85723209?v=4" width="100px;" alt="avatar-picture"/>
+ <b>Dandara Dias</b> 🎀
+ 
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/dandara-dias/)](https://www.linkedin.com/in/dandara-dias/) 
+<a href = "mailto:dandaradias.contato@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
