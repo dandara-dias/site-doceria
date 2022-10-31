@@ -164,7 +164,7 @@ p {
   color: #F7AEF8;
 }
 
-#contact-form input[type=submit] {
+#contact-form input[type=reset] {
   margin-left: 0;
   width: 25%;
   font-size: 1.5vw;
@@ -323,7 +323,7 @@ p {
   animation: wiggle 2s linear;
 }
 
-#welcome-section-btn, form input[type=submit] {
+#welcome-section-btn, form input[type=reset] {
   background-color: #F7AEF8;
   color: #FFFFFA;
   text-decoration: none;
@@ -339,7 +339,7 @@ p {
   border-radius: 8px;
 }
 
-#welcome-section-btn:hover, form input[type=submit]:hover {
+#welcome-section-btn:hover, form input[type=reset]:hover {
   background-color: #808782;
   animation: wiggle 2s linear;
 }
@@ -487,7 +487,7 @@ p {
     align-items: center;
   }
 
-  #welcome-section-btn, form input[type=submit] {
+  #welcome-section-btn, form input[type=reset] {
     background-color: #F7AEF8;
     color: #FFFFFA;
     text-decoration: none;
@@ -552,7 +552,7 @@ p {
     font-size: 4.5vw;
   }
 
-  #welcome-section-btn, form input[type=submit] {
+  #welcome-section-btn, form input[type=reset] {
     background-color: #F7AEF8;
     color: #FFFFFA;
     text-decoration: none;
@@ -663,7 +663,7 @@ p {
     margin-right: 0;
   }
 
-  #welcome-section-btn, form input[type=submit] {
+  #welcome-section-btn, form input[type=reset] {
     background-color: #F7AEF8;
     color: #FFFFFA;
     text-decoration: none;
@@ -740,7 +740,7 @@ p {
     font-size: 5vw;
   }
 
-  #welcome-section-btn, form input[type=submit] {
+  #welcome-section-btn, form input[type=reset] {
     background-color: #F7AEF8;
     color: #FFFFFA;
     text-decoration: none;
@@ -766,7 +766,7 @@ p {
     font-size: 3.5vw;
   }
 
-  #welcome-section-btn, form input[type=submit] {
+  #welcome-section-btn, form input[type=reset] {
     background-color: #F7AEF8;
     color: #FFFFFA;
     text-decoration: none;
