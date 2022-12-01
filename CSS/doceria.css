@@ -29,9 +29,17 @@
   }
 }
 
+:root {
+  --white: #FFFFFA;
+  --pink: #F7AEF8;
+  --orange: #FF784F;
+  --grey: #808782;
+  --blue: #313D5A;
+}
+
 ::selection {
-  color: #808782;
-  background: #F7AEF8;
+  color: var(--grey);
+  background: var(--pink);
 }
 
 a {
@@ -55,8 +63,8 @@ h3 {
 }
 
 html {
-  color: #808782;
-  background-image: linear-gradient(to bottom right, #FFFFFF, #FFFFFA);
+  color: var(--grey);
+  background-image: linear-gradient(to bottom right, #FFFFFF, var(--white));
   scroll-behavior: smooth;
 }
 
@@ -78,7 +86,8 @@ p {
 
 .banner-gallery {
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: inline-block;
   height: 20%;
 }
@@ -88,7 +97,7 @@ p {
   margin-left: .5%;
   margin-right: .5%;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
 .doces2-imgs {
@@ -96,7 +105,7 @@ p {
   margin-left: .5%;
   margin-right: .5%;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .doces3-imgs {
@@ -104,7 +113,7 @@ p {
   margin-left: .5%;
   margin-right: .5%;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .minibanner {
@@ -112,7 +121,8 @@ p {
   height: 400px;
   background-image: url('../Images/banner3.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   float: left;
   border-radius: 15px 50px 30px 5px;
 }
@@ -135,7 +145,7 @@ p {
   width: 102.5%;
   margin-left: -2.5%;
   object-fit: cover;
-  filter: drop-shadow(8px 8px 10px #F7AEF8);
+  filter: drop-shadow(8px 4px 10px var(--pink));
 }
 
 #contact-form {
@@ -144,7 +154,7 @@ p {
 
 #contact-form input[type=text], #contact-form input[type=email], #contact-form textarea {
   display: block;
-  border: 1px solid #808782;
+  border: 1px solid var(--grey);
   padding: 1%;
   margin-bottom: 2%;
   width: 100%;
@@ -153,7 +163,7 @@ p {
 }
 
 #contact-form input[type=text]:focus, #contact-form input[type=email]:focus, #contact-form textarea:focus {
-  outline-color: #313D5A;
+  outline-color: var(--blue);
 }
 
 #contact-form textarea {
@@ -161,7 +171,7 @@ p {
 }
 
 #contact-form ::placeholder {
-  color: #F7AEF8;
+  color: var(--pink);
 }
 
 #contact-form input[type=reset] {
@@ -176,7 +186,7 @@ p {
 }
 
 #content h2, #content h3, #content h4 {
-  color: #FF784F;
+  color: var(--orange);
   margin-bottom: 3%;
 }
 
@@ -268,14 +278,14 @@ p {
 }
 
 #sidebar a {
-  color: #fffffa;
+  color: var(--white);
   text-decoration: none;
   font-size: 1.7vw;
 }
 
 #sidebar a:hover {
-  background-color: (#313d5a, 0.5);
-  background-image: linear-gradient(45deg, #ff784f, #f7aef8);
+  background-color: (var(--blue), 0.5);
+  background-image: linear-gradient(45deg, var(--orange), var(--pink));
   background-size: 100%;
   background-repeat: repeat;
   background-clip: text;
@@ -286,7 +296,7 @@ p {
 }
 
 #sidebar h1 {
-  color: #fffffa;
+  color: var(--white);
   text-align: center;
   margin-top: 10%;
   margin-bottom: 15%;
@@ -324,15 +334,15 @@ p {
 }
 
 #welcome-section-btn, form input[type=reset] {
-  background-color: #F7AEF8;
-  color: #FFFFFA;
+  background-color: var(--pink);
+  color: var(--white);
   text-decoration: none;
   padding: 2% 4%;
   transition: 1s;
   display: block;
   width: 10%;
   text-align: center;
-  border: double #808782;
+  border: double var(--grey);
   cursor: pointer;
   margin-left: 30%;
   font-family: 'Raleway';
@@ -340,7 +350,7 @@ p {
 }
 
 #welcome-section-btn:hover, form input[type=reset]:hover {
-  background-color: #808782;
+  background-color: var(--grey);
   animation: wiggle 2s linear;
 }
 
@@ -386,7 +396,7 @@ p {
     margin-left: .5%;
     margin-right: .5%;
     height: 90px;
-    border-radius: 0;
+    border-radius: 10%;
   }
 
   .minibanner {
@@ -418,7 +428,7 @@ p {
     margin-left: -70px;
     margin-top: 27%;
     object-fit: cover;
-    filter: drop-shadow(8px 8px 10px #F7AEF8);
+    filter: drop-shadow(8px 4px 10px var(--pink));
     right: 500px;
   }
 
@@ -464,7 +474,7 @@ p {
   #sidebar a {
     display:block;
 	  text-decoration:none;
-	  color: #fffffa;
+	  color: var(--white);
   }
 
   #sidebar h1 {
@@ -472,7 +482,7 @@ p {
     float: left;
     margin-left: 5%;
     margin-top: 4%;
-    color: #fffffa;
+    color: var(--white);
   }
 
   #sidebar li {
@@ -488,8 +498,8 @@ p {
   }
 
   #welcome-section-btn, form input[type=reset] {
-    background-color: #F7AEF8;
-    color: #FFFFFA;
+    background-color: var(--pink);
+    color: var(--white);
     text-decoration: none;
     padding: 2% 4%;
     transition: 1s;
@@ -497,7 +507,7 @@ p {
     width: 23%;
     font-size: 4vw;
     text-align: center;
-    border: double #808782;
+    border: double var(--grey);
     cursor: pointer;
     margin-left: 20%;
     font-family: 'Raleway';
@@ -544,7 +554,7 @@ p {
     height: 10em;
     width: 102.5%;
     object-fit: cover;
-    filter: drop-shadow(8px 8px 10px #F7AEF8);
+    filter: drop-shadow(8px 4px 10px var(--pink));
   }
 
   #doceria-sidebar {
@@ -553,15 +563,15 @@ p {
   }
 
   #welcome-section-btn, form input[type=reset] {
-    background-color: #F7AEF8;
-    color: #FFFFFA;
+    background-color: var(--pink);
+    color: var(--white);
     text-decoration: none;
     padding: 2% 4%;
     transition: 1s;
     display: block;
     width: 25%;
     text-align: center;
-    border: double #808782;
+    border: double var(--grey);
     cursor: pointer;
     margin-left: 40%;
     font-family: 'Raleway';
@@ -634,7 +644,7 @@ p {
     height: 10em;
     width: 102.5%;
     object-fit: cover;
-    filter: drop-shadow(8px 8px 10px #F7AEF8);
+    filter: drop-shadow(8px 4px 10px var(--pink));
   }
 
   #doceria-sidebar {
@@ -664,15 +674,15 @@ p {
   }
 
   #welcome-section-btn, form input[type=reset] {
-    background-color: #F7AEF8;
-    color: #FFFFFA;
+    background-color: var(--pink);
+    color: var(--white);
     text-decoration: none;
     padding: 2% 4%;
     transition: 1s;
     display: block;
     width: 25%;
     text-align: center;
-    border: double #808782;
+    border: double var(--grey);
     cursor: pointer;
     margin-left: 40%;
     font-family: 'Raleway';
@@ -732,7 +742,7 @@ p {
     width: 102.5%;
     margin-left: -2.5%;
     object-fit: cover;
-    filter: drop-shadow(8px 8px 10px #F7AEF8);
+    filter: drop-shadow(8px 4px 10px var(--pink));
   }
 
   #doceria-sidebar {
@@ -741,15 +751,15 @@ p {
   }
 
   #welcome-section-btn, form input[type=reset] {
-    background-color: #F7AEF8;
-    color: #FFFFFA;
+    background-color: var(--pink);
+    color: var(--white);
     text-decoration: none;
     padding: 2% 4%;
     transition: 1s;
     display: block;
     width: 15%;
     text-align: center;
-    border: double #808782;
+    border: double var(--grey);
     cursor: pointer;
     margin-left: 50%;
     font-family: 'Raleway';
@@ -767,15 +777,15 @@ p {
   }
 
   #welcome-section-btn, form input[type=reset] {
-    background-color: #F7AEF8;
-    color: #FFFFFA;
+    background-color: var(--pink);
+    color: var(--white);
     text-decoration: none;
     padding: 2% 4%;
     transition: 1s;
     display: block;
     width: 20%;
     text-align: center;
-    border: double #808782;
+    border: double var(--grey);
     cursor: pointer;
     margin-left: 40%;
     font-family: 'Raleway';
@@ -786,7 +796,7 @@ p {
     margin-left: .5%;
     margin-right: .5%;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 25%;
   }
   
   .doces2-imgs {
@@ -794,7 +804,7 @@ p {
     margin-left: .5%;
     margin-right: .5%;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 5%;
   }
   
   .doces3-imgs {
@@ -802,7 +812,7 @@ p {
     margin-left: .5%;
     margin-right: .5%;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 
   .minibanner {
