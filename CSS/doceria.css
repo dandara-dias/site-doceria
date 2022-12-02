@@ -29,6 +29,25 @@
   }
 }
 
+@keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+    opacity: 0;
+  }
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
 :root {
   --white: #FFFFFA;
   --pink: #F7AEF8;
@@ -92,6 +111,26 @@ p {
   height: 20%;
 }
 
+.bounceball {
+  position: relative;
+  display: inline-block;
+  height: 37px;
+  width: 35px;
+}
+
+.bounceball::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: var(--orange);
+    transform-origin: 50%;
+    animation: bounce 500ms alternate infinite ease;
+}
+
 .doces1-imgs {
   width: 18.8%;
   margin-left: .5%;
@@ -125,6 +164,24 @@ p {
   background-repeat: no-repeat;
   float: left;
   border-radius: 15px 50px 30px 5px;
+}
+
+.text {
+  color: var(--orange);
+  display: inline-block;
+  margin-left: 5px;
+  font-family: 'Raleway';
+  font-size: 2em;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  animation: fadein 2s;
+  transition: opacity 2s ease-in;
 }
 
 #about-us-section .minibanner {
@@ -178,6 +235,10 @@ p {
   margin-left: 0;
   width: 25%;
   font-size: 1.5vw;
+}
+
+#container {
+  display: none;
 }
 
 #content {

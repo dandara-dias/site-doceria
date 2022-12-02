@@ -9,7 +9,7 @@
   <title>Doceria SPA</title>
   <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
 </head>
-<body>
+<body onload="loader()">
   <span id="container">
     <span id="sidebar" name="sidebar">
       <span id="sidebar-container">
@@ -103,5 +103,25 @@
       </main>
     </span>
   </span>
+
+  <span class="wrap">
+    <span class="loading">
+      <span class="bounceball"></span>
+      <span class="text">CARREGANDO...</span>
+    </span>
+  </span>
+
+  <script>
+    let time;
+
+    function loader() {
+      time = setTimeout(showPage, 2000);
+    }
+
+    function showPage() {
+      document.getElementsByClassName("wrap")[0].style.display = "none";
+      document.getElementById("container").style.display = "block";
+    }
+  </script>
 </body>
 </html>
