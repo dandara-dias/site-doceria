@@ -1,6 +1,6 @@
 <h1 align="center">< Site Doceria Single Page /></h1>
 
-<p align="center">🍰 Aplicação responsável pela página da Doceria SPA 🍰 Em construção 🚧</p>
+<p align="center">🍰 Aplicação responsável pela página da Doceria SPA 🍰 Concluído ✔️</p>
 
 <p align="center">
 • <a href="#-sobre-o-projeto">Sobre</a> •
