@@ -63,6 +63,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Website** ([HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) + [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS))
 
 -   **[Reset CSS](https://meyerweb.com/eric/tools/css/reset/)**
+-   **[Loader](https://codepen.io/wabeshew/pen/XdbBdM)**
 
 #### **Utilitários**
 
